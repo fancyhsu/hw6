@@ -9,7 +9,6 @@ structure Edge{
     Edge(){};
     Edge(int u, int v, int w):from(u), to(v), weight(w){};
 }
-
 class GraphMST{
 private;
     int num_vertex;
